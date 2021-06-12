@@ -1,6 +1,11 @@
 fun main() {
-var a: Int =10
+    //typecasting
+ var a: Int =10
  var b: Long =a.toLong()
- print(b)
+ println(b)
+ 
+ var name:Any ="John"
+    var name1 : String = name as String//castting is done using as
+    println(name1)
     
 }
